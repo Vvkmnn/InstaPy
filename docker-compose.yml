@@ -10,7 +10,5 @@
      depends_on:
        - selenium
    selenium:
-       image: selenium/standalone-chrome-debug
-       ports:
-         - "5900:5900"
+       image: selenium/standalone-chrome
        shm_size: 128M
