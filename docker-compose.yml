@@ -1,16 +1,16 @@
  version: '3'
  services:
    web:
-     command: python docker_quickstart.py
+     command: python docker_bot.py
      environment:
        - PYTHONUNBUFFERED=0
      build:
        context: .
-       dockerfile: ./docker_conf/python/Dockerfile
+       dockerfile: ./Dockerfile
      depends_on:
        - selenium
    selenium:
        image: selenium/standalone-chrome-debug
        ports:
-         - "5900:5900"
+         - "5902:5900"
        shm_size: 128M
