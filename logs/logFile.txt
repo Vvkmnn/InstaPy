@@ -163,3 +163,12 @@ Tag [1/[]]--> b'\xf0\x9f\x91\xbd'
 [36/365]https://www.instagram.com/p/BXtX4mYFA05/?tagged=%F0%9F%91%BDSession started - 2017-08-12 21:04:43
 Logged in successfully!
 Tag [1/[]]--> b'#alien'
+Session started - 2017-08-13 14:42:48
+Wrong login data!
+
+Session ended - 2017-08-13 14:42:56
+--------------------
+
+Session started - 2017-08-13 14:48:50
+Logged in successfully!
+Tag [1/[]]--> b'#alien'
