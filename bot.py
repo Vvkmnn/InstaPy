@@ -4,7 +4,7 @@ from instapy import InstaPy
 # Stuck ? Look at the github page or the examples in the examples folder
 
 insta_username = 'Aliensearchparty'
-insta_password = 'journey74'
+insta_password = ''
 
 dont_like = []
 ignore_words = []
