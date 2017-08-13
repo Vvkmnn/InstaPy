@@ -1,7 +1,7 @@
  version: '3'
  services:
    web:
-     command: python docker_bot.py
+     command: python bot.py
      environment:
        - PYTHONUNBUFFERED=0
      build:
@@ -10,5 +10,5 @@
      depends_on:
        - selenium
    selenium:
-       image: selenium/standalone-chrome
+       image: selenium/standalone-chrome-debug
        shm_size: 128M

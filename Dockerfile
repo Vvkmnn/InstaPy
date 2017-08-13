@@ -1,7 +1,17 @@
+# USe Python3 Alpine
 FROM python:3.6
-RUN mkdir /code
-RUN mkdir /config
-WORKDIR /code
-COPY ./requirements.txt /config/
-RUN pip install -r /config/requirements.txt
-COPY ./ /code/
+
+# Set the working directory to /app
+WORKDIR /bot
+
+# Copy the current directory contents into the container at /app
+ADD . /bot
+
+# Install any needed packages specified in requirements.txt
+RUN pip install -r requirements.txt
+
+# Make port 80 available to the world outside this container
+EXPOSE 80
+
+# Run app.py when the container launches
+CMD ["python", "alien.py"]
