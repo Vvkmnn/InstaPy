@@ -20,10 +20,9 @@ bot.set_do_comment(True, percentage=100)
 # bot.set_upper_follower_count(limit=2500)
 
 # Decide Targets
-
+bot.like_by_tags([u'#👽', '#alien'], amount=500)
 bot.like_by_users(usernames=['Chronic.alien',
                              'Poisoneddolly'], amount=100, random=True)
-bot.like_by_tags([u'#👽', '#alien'], amount=500)
 # bot.set_dont_include(friend_list)
 # bot.set_dont_like(dont_like)
 # bot.set_ignore_if_contains(ignore_words)
