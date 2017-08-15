@@ -1,10 +1,12 @@
-## instaBot
+## alienBot
 
-A little Instagram helper that likes, follows, and comments on some friendly channels.
+A little Instagram bot that likes, follows, and comments on some friendly channels. Built for [ASP](https://www.aliensearchparty.com/).
 
 ![](example.gif)
 
- Built off of [InstaPy](https://github.com/timgrossmann/InstaPy/) using Docker, hosted on [DigitalOcean](https://cloud.digitalocean.com/).
+Gratefully built on of [InstaPy](https://github.com/timgrossmann/InstaPy/), hosted on [DigitalOcean](https://cloud.digitalocean.com/):
+
+![](hosting.gif)
 
 ### Licenses
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/timgrossmann/InstaPy/blob/master/LICENSE)
